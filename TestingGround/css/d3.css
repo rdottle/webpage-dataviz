@@ -50,9 +50,8 @@
           text-transform: uppercase;
           float: left;
           color: #D0BED0;
-          margin-left: 5em;
+          margin-left: 12em;
           padding-top: 3em;
-          position: relative;
      }
 
     .top-label-two {
@@ -61,7 +60,7 @@
           text-transform: uppercase;
           float: left;
           color: #D0BED0;
-          margin-left: 10em;
+          margin-left: 25em;
           padding-top: 3em;
 
      }
