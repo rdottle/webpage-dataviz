@@ -9,6 +9,9 @@
 </head>
 <body>
 
+<div class = "title">
+     <h3> This graphic visualizes the number of individuals affected by the Colombian conflict between 1994 and 2014. The data is sourced from the Registro Único de Víctimas in Colombia, and is self-reported data. In this visualization the data is categorized by a breakdown of the percent of individuals affected by age group for each year. 
+
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
 
@@ -88,7 +91,8 @@
           console.log(popData);
           x.domain([0, d3.max(data, function(element) { return element.value; })]);
 
-          y.domain(popData.map(function(element) {return element.age}));
+          y.domain(popData.map(function(element) {return element.age})
+               .sort());
 
           var svg = body.append("svg")
                .attr("width", width + margin.left + margin.right)
