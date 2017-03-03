@@ -2,19 +2,26 @@
      body {
           font-family: Helvetica;
      }
+
+     p{
+          font-weight: bold;
+          text-align: center;
+          font-size: 30px;
+     }
+
      svg {
-          width: 500px;
-          height: 500px;
+          width: 900px;
+          height: 900px;
      }
      .play-button {
           margin-left: 10px;
           margin-bottom: 15px;
           font-style: italic;
           cursor: pointer;
-          color: grey;
+          color: #D0BED0;
      }
      .play-button:hover {
-          color: black;
+          color: #D0BED0;
      }
      .buttons-container {
           width: 520px;
@@ -31,22 +38,38 @@
      }
      .top-label {
           font-size: 13px;
-          font-style: italic;
+          font-style: bold;
           text-transform: uppercase;
           float: left;
+          color: #D0BED0;
      }
+
+    .top-label-two {
+          font-size: 13px;
+          font-style: bold;
+          text-transform: uppercase;
+          float: left;
+          color: #D0BED0;
+     }
+
      .age-label {
           text-align: right;
           font-weight: bold;
           width: 90px;
-          padding-right: 10px;
+          padding-right: 40px;
      }
      .clearfix {
           clear: both;
      }
+
      .bar {
-          fill:#e2b3d2;
+          fill: #000;
      }
+
+     .bar-two{
+          fill: #000;
+     }
+
      .bar-label {
           text-anchor: end;
      }
@@ -54,13 +77,13 @@
           text-anchor: middle;
           font-size: 13px;
      }
+
      .x.axis line {
        fill: none;
-       stroke: #000;
+       stroke: #73383D;
+       margin-top: 100px;
      }
-     .x.axis text {
-          font-size: 13px;
-     }
+    
      .axis path {
           display:none;
      }
