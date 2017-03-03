@@ -9,8 +9,6 @@
 </head>
 <body>
 
-<div class = "title">
-     <h3> This graphic visualizes the number of individuals affected by the Colombian conflict between 1994 and 2014. The data is sourced from the Registro Único de Víctimas in Colombia, and is self-reported data. In this visualization the data is categorized by a breakdown of the percent of individuals affected by age group for each year. 
 
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
@@ -50,7 +48,12 @@
      body.append("div")
           .attr("class", "h3")
           .append("p")
-          .text("by Rachael Dottle")
+          .text("by Rachael Dottle");
+
+     body.append("div")
+     .attr("class", "title")
+     .append("p")
+     .text("This graphic visualizes the number of individuals affected by the Colombian conflict between 1994 and 2014. The data is sourced from the Registro Único de Víctimas in Colombia, and is self-reported data. In this visualization the data is categorized by a breakdown of the percent of individuals affected by age group for each year");
 
      var playAll = body.append("div")
           .attr("class", "play-button")
@@ -73,7 +76,7 @@
           .attr("class", "clearfix")
 
      body.append("div")
-          .attr("class", "top-label age-label")
+          .attr("class", "top-label-two age-label")
        .append("p")
           .text("age group");
 
@@ -161,6 +164,7 @@
 
           };
      });
+
 </script>
 
 </body>
