@@ -5,8 +5,8 @@
 
      p{
           font-weight: bold;
-          text-align: center;
-          font-size: 30px;
+          text-align: left;
+          font-size: 12px;
      }
 
      svg {
@@ -37,7 +37,7 @@
           font-weight: bold;
      }
      .top-label {
-          font-size: 13px;
+          font-size: 12px;
           font-style: bold;
           text-transform: uppercase;
           float: left;
